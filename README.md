@@ -28,15 +28,4 @@ EMAIL_PASS=your_email_password
 
 
 
-Project Structure
-/user-authentication-system
-│── /config          # Database connection & environment config
-│── /routes          # Express routes (auth routes)
-│── /controllers     # Business logic for authentication
-│── /models          # Mongoose schemas for users
-│── /middlewares     # Authentication and validation middlewares
-│── server.js        # Main entry point
-│── package.json     # Dependencies and scripts
-│── .env.example     # Example environment file
-│── README.md        # Documentation
 
