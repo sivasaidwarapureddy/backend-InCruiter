@@ -31,9 +31,19 @@ app.use((req, res, next) => {
 
 // Routes
 app.get("/", (req, res) => {
-    res.send("Hello world!!");
+    res.json({
+        message: "Welcome to the User Authentication System!",
+        endpoints: {
+            "GET /": "Show all available API endpoints",
+            "GET /api/auth/users": "Get all registered users (Admin only)",
+            "GET /api/auth/profile": "Get logged-in user profile",
+            "GET /api/protected": "Example protected route",
+            "POST /api/auth/register": "Register a new user",
+            "POST /api/auth/login": "User login",
+            "POST /api/auth/reset-password": "Request password reset",
+        }
+    });
 });
-
 app.use("/auth", authRoutes);
 
 app.use((err, req, res, next) => {
