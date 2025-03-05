@@ -1,5 +1,4 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+
 # Logs
 logs
 *.log
@@ -35,3 +34,4 @@ coverage/
 
 # Optional: TypeScript build files
 *.tsbuildinfo
+node_modules/
