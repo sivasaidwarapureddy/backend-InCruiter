@@ -1,8 +1,8 @@
 # **User Authentication System**  
-
+📌 Available Endpoints: [View all endpoints](https://backend-incruiter-production.up.railway.app/)
 A secure user authentication system built with **Node.js, Express, and MongoDB**. This application supports **user registration, login, and password reset** using **JWT authentication**.
 
-## **Features**  
+
 
 ✅ User Registration (with input validation)  
 ✅ Secure Password Hashing (bcrypt)  
